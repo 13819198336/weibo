@@ -6,7 +6,7 @@ window._ = require('lodash');
  * code may be modified to fit the specific needs of your application.
  */
 
-try {
+try {let token = document.head.querySelector('meta[name="csrf-
     window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
